@@ -1,0 +1,12 @@
+open Putty
+
+Public ipv4 ------ paste at Host name 
+
+Then SSH -> Auth then load .ppk file then connect
+
+By default User :- ubuntu
+
+Then Required Process for app:
+sudo apt update
+sudo apt install python3-pip
+pip3 --version
